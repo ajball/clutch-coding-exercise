@@ -4,7 +4,7 @@ A Scala/Play2 backend that exposes a web-service & websocket API for stock searc
 
 ## Prerequisites & Assumptions
 
-- You are working on a Mac or Macbook Pro
+- You are working on MacOS
 - You have [homebrew](https://brew.sh/) installed
 - You have the [Java 8](https://adoptopenjdk.net/) jdk and runtime installed (`brew cask install adoptopenjdk8`)
 	- My output from `java -version`: `openjdk version "1.8.0_222"`
