@@ -9,7 +9,6 @@ resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 scalaVersion := "2.11.11"
 
 libraryDependencies ++= Seq( jdbc , cache , ws , specs2 % Test )
-// https://mvnrepository.com/artifact/com.yahoofinance-api/YahooFinanceAPI
 libraryDependencies += "com.yahoofinance-api" % "YahooFinanceAPI" % "3.15.0"
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )  
