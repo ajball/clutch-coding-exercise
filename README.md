@@ -11,7 +11,7 @@ A Scala/Play2 backend that exposes a web-service & websocket API for stock searc
 - You have scala installed (`brew install sbt`)
 	- `sbt sbtVersion` ==> `1.3.8`
 
-###Steps to boot it up
+### Steps to boot it up
 
 1. Clone this repo locally
 	- `git clone https://github.com/ajball/clutch-coding-exercise.git`
